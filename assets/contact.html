@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazing Events</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="shortcut icon" href="../images/Logo-Amazing-Events.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(34, 152, 203)">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../images/Logo-Amazing-Events.png" style="width: 130px;"
+            alt="logo.Events"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav navbar-collapse ">
+            <a class="nav-link" href="../index.html">Home</a>
+            <a class="nav-link" href="./upcoming.html">Upcoming Events</a>
+            <a class="nav-link" href="./past.html">Past Events</a>
+            <a class="nav-link active" href="#">Contact</a>
+            <a class="nav-link" href="./stats.html">Stats</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="main-contact">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <p class="parrafo-index">Home</p>
+        </div>
+        <div class="carousel-item">
+          <p class="parrafo-index">Upcomming events</p>
+        </div>
+        <div class="carousel-item">
+          <p class="parrafo-index">Past events</p>
+        </div>
+        <div class="carousel-item active">
+          <p class="parrafo-index">Contact</p>
+        </div>
+        <div class="carousel-item">
+          <p class="parrafo-index">Stats</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <form class="contact-us">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="mb-3">
+        <label for="text-area" class="form-label">Mesagge:</label>
+        <textarea class="form-control" id="text-area" rows="6"></textarea>
+      </div>
+      <button type="submit" class="buttom-form btn btn-primary">Submit</button>
+    </form>
+
+  </main>
+  <footer>
+    <nav>
+      <div class="container-a">
+        <a class="navbar-brand m-2" href="https://www.instagram.com/">
+          <img class="log-footer" src="../images/logo-instagram.png" alt="instagram" width="40" height="40">
+        </a>
+        <a class="navbar-brand m-2" href="https://www.facebook.com/">
+          <img class="log-footer" src="../images/logo-facebook.png" alt="facebook" width="40" height="40">
+        </a>
+        <a class="navbar-brand m-2" href="https://api.whatsapp.com/send?phone=541111111111&text=consultas">
+          <img class="log-footer" src="../images/logo-whatssap.png" alt="whatsapp" width="40" height="40">
+        </a>
+      </div>
+    </nav>
+    <h2>Cohort 42</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
