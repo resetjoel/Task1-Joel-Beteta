@@ -186,20 +186,3 @@ const data = {
       }
     ]
   }
-  let homeCards = document.querySelector(".tarjet");
-  data.events.forEach((item)=> {
-    homeCards.innerHTML += `
-    <div class="card text-center m-3" style="width: 18rem;">
-    <img src=${item.image} class="card-img-top" alt="festi-colecti">
-    <div class="card-body">
-        <h5 class="card-title">${item.name}</h5>
-        <p class="card-text">${item.description}</p>
-        <p class="card-text">Date: ${item.date}</p>
-        <div class="price-descption">
-            <p class="card-text ">Price: ${item.price}</p>
-            <a href="./description.html" class="btn btn-outline-danger">Description</a>
-        </div>
-    </div>
-</div>`
-
-  })
