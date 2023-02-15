@@ -124,10 +124,10 @@ margin: auto;
     justify-content: center;
 }
 @media only screen and ( max-width: 380px){
-    .description{
-        flex-direction: column-reverse;
-        align-items: center;
-        margin-bottom: 20px;
+.description{
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 20px;
 }
 }
 .card-descrip{
@@ -141,6 +141,6 @@ margin: auto;
 .card{
     border: none;
     margin: 10px;
-    box-shadow:  20px 20px 10px rgb(7, 6, 6) ;
+    box-shadow:  5px 5px 10px rgb(30, 30, 30) ;
 
 }
